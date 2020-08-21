@@ -1,0 +1,50 @@
+body{
+    background-color: navajowhite;
+}
+header{
+    background-color: gray;
+    height: 70px;
+    border: 2px solid black;
+}
+button.navbar-toggler {
+    background-color: white;
+    float: right;
+    margin: 15px;
+}
+.main{
+    text-align: center;
+    margin: 20px;
+}
+.n1 , .n2 , .n3 {
+    background-color: gray;
+    border: 2px solid black;
+    margin-top: 50px;
+}
+.row{
+    margin: 20px;
+}
+p{
+    text-align: center;
+    font-size: 2rem;
+}
+a :active{
+    opacity: 2em;
+}
+ul.navbar-nav.mr-auto {
+    width: 100%;
+}
+li{
+    text-align: center;
+    color: black;
+    z-index: 2;
+}
+a.nav-link {
+    color: black;
+    background-color: gray;
+    border: 1px solid black;
+    font-size: large;
+   
+}
+.main{
+    z-index: -1;
+}
